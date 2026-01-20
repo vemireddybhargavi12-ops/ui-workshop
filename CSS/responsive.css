@@ -1,0 +1,90 @@
+@media only screen and (max-width: 767px) {
+   /* Topbar css */
+
+
+   .topbar {
+      padding: 20px 20px;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .topbar-social {
+      margin-top: 20px;
+   }
+
+   /* Header css */
+
+   header {
+      padding: 10px 20px;
+      flex-direction: column;
+   }
+
+   nav ul li a {
+      padding-left: 14px;
+      font-size: 12px;
+   }
+
+   /*About Us */
+
+   .aboutus {
+      padding: 40px 20px;
+      grid-template-columns: 1fr;
+   }
+
+
+   /*Our Courses */
+
+   .our-courses {
+      padding: 40px 20px;
+   }
+
+
+   .all-courses {
+      grid-template-columns: 1fr;
+   }
+
+/* Why Should Choose Us */
+
+.digit-stats {
+   padding: 40px 20px;
+}
+
+.counter-up {
+   grid-template-columns:  1fr;
+}
+
+/* Enroll Now */
+
+.enroll-now form {
+   width: auto;
+}
+
+
+
+
+ /* Footer */
+
+   footer {
+      padding: 40px 20px;
+      grid-template-columns: 1fr;
+   }
+}
+   /* Tab devices */
+
+   @media only screen and (min-width:768px) and (max-width:992px) {
+      /* Our Courses */
+
+      .all-courses {
+         grid-template-columns: 1fr 1fr;
+      }
+      .counter-up {
+         grid-template-columns: 1fr 1fr;
+      }
+      footer {
+         padding: 40px 20px;
+         grid-template-columns: 1fr 1fr;
+      }
+   }
+
+
+
